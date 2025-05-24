@@ -108,7 +108,7 @@ jobs:
         with:
           context: .
           platforms: linux/amd64,linux/arm64
-          push: ${{ !github.event.pull_request.head.repo.fork && steps.metadata.outputs.tags != '' }}
+          push: ${{ steps.metadata.outputs.tags != '' }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
           tags: ${{ steps.metadata.outputs.tags }}
