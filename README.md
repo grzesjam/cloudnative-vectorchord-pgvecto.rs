@@ -1,5 +1,11 @@
 # cloudnative-vectorchord
 
+> [!WARNING]
+> The whole purpose of this image is to provide a way to migrate from vecto.rs to VectorChord.
+> It was only made to migrate an existing immich database using vecto.rs
+
+
+
 Container images for [cloudnative-pg](https://cloudnative-pg.io/) with the [VectorChord](https://github.com/tensorchord/VectorChord) extension installed.
 
 
