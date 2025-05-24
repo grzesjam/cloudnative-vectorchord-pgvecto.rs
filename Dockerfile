@@ -1,6 +1,6 @@
 ARG CNPG_TAG
 
-FROM ghcr.io/cloudnative-pg/postgresql:$CNPG_TAG
+FROM ghcr.io/cloudnative-pg/postgresql:$CNPG_TAG-bookworm
 
 ARG CNPG_TAG
 ARG VECTORCHORD_TAG
