@@ -1,6 +1,6 @@
 ARG CNPG_TAG
 
-FROM ghcr.io/cloudnative-pg/postgresql:$CNPG_TAG-trixie
+FROM ghcr.io/cloudnative-pg/postgresql:$CNPG_TAG-standard-trixie
 
 ARG CNPG_TAG
 ARG VECTORCHORD_TAG
